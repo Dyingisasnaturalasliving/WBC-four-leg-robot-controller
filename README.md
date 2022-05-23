@@ -1,3 +1,3 @@
-# WBC-four-leg-robot-controller
-pybullet WBC quadruped robot
-编译完成后，将生成的状态估计.so与WBC.so放在python文件夹下面即可运行
+# Introduction
+This repo contain the code to simulate a Unitree A1 robot troting in pybullet simulation software, the control method is whole body control(WBC), which is the  same control method used by MIT Mini Cheetah Software.
+After you finished compiling and buiding process, please move the WBC.so and stateEstimate.so library file into the python folder, and then you can run the main.py to start the simulation. 
